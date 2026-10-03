@@ -1,7 +1,6 @@
 # Quantum Arithmetic over Binary Fields
 
-Code and data for the article *Quantum Arithmetic over Binary Fields with Its
-application*. 
+Code and data for the article *Depth-Optimized Quantum Arithmetic over Binary Fields with Applications to Binary ECDLP*. 
 
 ## Table 6 implementations
 
