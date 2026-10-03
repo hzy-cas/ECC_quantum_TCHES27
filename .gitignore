@@ -1,0 +1,8 @@
+.DS_Store
+**/__pycache__/
+*.py[cod]
+**/.vscode/
+**/build/
+**/build_*/
+*.o
+*.dSYM/
