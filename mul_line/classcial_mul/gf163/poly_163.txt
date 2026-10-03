@@ -1,0 +1,49 @@
+Place 2 (degree 1),Defining polynomial: x
+Place 3 (degree 1),Defining polynomial: x + 1
+Place 1 (degree 2),Defining polynomial: x^2 + x + 1
+Place 1 (degree 3),Defining polynomial: x^3 + x + 1
+Place 2 (degree 3),Defining polynomial: x^3 + x^2 + 1
+Place 1 (degree 4),Defining polynomial: x^4 + x + 1
+Place 2 (degree 4),Defining polynomial: x^4 + x^3 + x^2 + x + 1
+Place 3 (degree 4),Defining polynomial: x^4 + x^3 + 1
+Place 1 (degree 5),Defining polynomial: x^5 + x^2 + 1
+Place 2 (degree 5),Defining polynomial: x^5 + x^4 + x^3 + x^2 + 1
+Place 3 (degree 5),Defining polynomial: x^5 + x^4 + x^2 + x + 1
+Place 4 (degree 5),Defining polynomial: x^5 + x^3 + x^2 + x + 1
+Place 5 (degree 5),Defining polynomial: x^5 + x^4 + x^3 + x + 1
+Place 6 (degree 5),Defining polynomial: x^5 + x^3 + 1
+Place 1 (degree 6),Defining polynomial: x^6 + x^4 + x^3 + x + 1
+Place 2 (degree 6),Defining polynomial: x^6 + x^5 + x^4 + x^2 + 1
+Place 3 (degree 6),Defining polynomial: x^6 + x + 1
+Place 4 (degree 6),Defining polynomial: x^6 + x^3 + 1
+Place 5 (degree 6),Defining polynomial: x^6 + x^5 + x^2 + x + 1
+Place 6 (degree 6),Defining polynomial: x^6 + x^5 + x^4 + x + 1
+Place 7 (degree 6),Defining polynomial: x^6 + x^4 + x^2 + x + 1
+Place 8 (degree 6),Defining polynomial: x^6 + x^5 + 1
+Place 9 (degree 6),Defining polynomial: x^6 + x^5 + x^3 + x^2 + 1
+Place 1 (degree 8),Defining polynomial: x^8 + x^4 + x^3 + x^2 + 1
+Place 2 (degree 8),Defining polynomial: x^8 + x^6 + x^5 + x^4 + x^2 + x + 1
+Place 3 (degree 8),Defining polynomial: x^8 + x^7 + x^6 + x^5 + x^4 + x + 1
+Place 4 (degree 8),Defining polynomial: x^8 + x^6 + x^5 + x^3 + 1
+Place 5 (degree 8),Defining polynomial: x^8 + x^7 + x^5 + x^4 + x^3 + x^2 + 1
+Place 6 (degree 8),Defining polynomial: x^8 + x^7 + x^6 + x^5 + x^2 + x + 1
+Place 7 (degree 8),Defining polynomial: x^8 + x^5 + x^3 + x + 1
+Place 8 (degree 8),Defining polynomial: x^8 + x^7 + x^6 + x^4 + x^2 + x + 1
+Place 9 (degree 8),Defining polynomial: x^8 + x^6 + x^5 + x^2 + 1
+Place 10 (degree 8),Defining polynomial: x^8 + x^7 + x^3 + x + 1
+Place 11 (degree 8),Defining polynomial: x^8 + x^6 + x^5 + x + 1
+Place 12 (degree 8),Defining polynomial: x^8 + x^4 + x^3 + x + 1
+Place 13 (degree 8),Defining polynomial: x^8 + x^5 + x^4 + x^3 + x^2 + x + 1
+Place 14 (degree 8),Defining polynomial: x^8 + x^7 + x^3 + x^2 + 1
+Place 15 (degree 8),Defining polynomial: x^8 + x^5 + x^3 + x^2 + 1
+Place 16 (degree 8),Defining polynomial: x^8 + x^6 + x^4 + x^3 + x^2 + x + 1
+Place 17 (degree 8),Defining polynomial: x^8 + x^7 + x^6 + x^5 + x^4 + x^3 + 1
+Place 18 (degree 8),Defining polynomial: x^8 + x^7 + x^6 + x + 1
+Place 19 (degree 8),Defining polynomial: x^8 + x^5 + x^4 + x^3 + 1
+Place 20 (degree 8),Defining polynomial: x^8 + x^7 + x^5 + x^3 + 1
+Place 21 (degree 8),Defining polynomial: x^8 + x^7 + x^2 + x + 1
+Place 22 (degree 8),Defining polynomial: x^8 + x^7 + x^5 + x^4 + 1
+Place 23 (degree 8),Defining polynomial: x^8 + x^6 + x^3 + x^2 + 1
+Place 24 (degree 8),Defining polynomial: x^8 + x^7 + x^6 + x^3 + x^2 + x + 1
+Place 25 (degree 8),Defining polynomial: x^8 + x^7 + x^6 + x^4 + x^3 + x^2 + 1
+Place 26 (degree 8),Defining polynomial: x^8 + x^7 + x^5 + x + 1

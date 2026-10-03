@@ -1,0 +1,9 @@
+/build/
+/build.backup.*/
+__pycache__/
+*.pyc
+/results/logs/
+/results/fixtures/
+/results_tdw/
+*.tmp
+*.lock

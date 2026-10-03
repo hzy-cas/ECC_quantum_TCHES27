@@ -1,0 +1,22 @@
+{
+  "basis_verified": true,
+  "clean_qubits": 167861,
+  "cnot": 47416800,
+  "current_depth": 16105,
+  "fingerprint": "12617d405bb508009e3d386491d294ee1a44ee1a11d3c5bbb69082598d206b9d",
+  "full_depth": 15947,
+  "input_qubits": 35860,
+  "kind": "reduction",
+  "lanes": 55,
+  "model_version": "window-retained-clean-zv-v1",
+  "n": 163,
+  "output_alias_input_qubits": 0,
+  "output_qubits": 17930,
+  "peak_rss_bytes": 2137964544,
+  "qrom_model": "not_applicable_arithmetic_layer",
+  "qubits": 476889,
+  "retained_new_qubits": 273168,
+  "seconds": 1.02033,
+  "toffoli": 254586,
+  "toffoli_depth": 22
+}

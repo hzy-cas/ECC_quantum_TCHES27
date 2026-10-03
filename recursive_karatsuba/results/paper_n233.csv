@@ -1,0 +1,2 @@
+Parallel_Ops,Toffoli,CNOT,Full_Depth,Current_Depth,Toffoli_Depth,Qubits,DW_Cost_Full,DW_Cost_Current,Time_Seconds
+32,62827008,585092032,90628,93924,1436,1464127,132690901756,137516664348,44.3752

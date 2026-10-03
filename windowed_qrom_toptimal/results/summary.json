@@ -1,0 +1,2178 @@
+{
+  "arithmetic_model_version": "window-retained-clean-zv-v1",
+  "fields": {
+    "163": {
+      "available_points": 2765,
+      "complete_full_resource_grid": false,
+      "formula_minimizers": [
+        {
+          "n": 163,
+          "p": 110,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 110
+        },
+        {
+          "n": 163,
+          "p": 111,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 111
+        },
+        {
+          "n": 163,
+          "p": 112,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 112
+        },
+        {
+          "n": 163,
+          "p": 113,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 113
+        },
+        {
+          "n": 163,
+          "p": 114,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 114
+        },
+        {
+          "n": 163,
+          "p": 115,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 115
+        },
+        {
+          "n": 163,
+          "p": 116,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 116
+        },
+        {
+          "n": 163,
+          "p": 117,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 117
+        },
+        {
+          "n": 163,
+          "p": 118,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 118
+        },
+        {
+          "n": 163,
+          "p": 119,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 119
+        },
+        {
+          "n": 163,
+          "p": 120,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 120
+        },
+        {
+          "n": 163,
+          "p": 121,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 121
+        },
+        {
+          "n": 163,
+          "p": 122,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 122
+        },
+        {
+          "n": 163,
+          "p": 123,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 123
+        },
+        {
+          "n": 163,
+          "p": 124,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 124
+        },
+        {
+          "n": 163,
+          "p": 125,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 125
+        },
+        {
+          "n": 163,
+          "p": 126,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 126
+        },
+        {
+          "n": 163,
+          "p": 127,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 127
+        },
+        {
+          "n": 163,
+          "p": 128,
+          "predicted_toffoli_depth": 248,
+          "s": 3,
+          "w": 128
+        },
+        {
+          "n": 163,
+          "p": 110,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 110
+        },
+        {
+          "n": 163,
+          "p": 111,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 111
+        },
+        {
+          "n": 163,
+          "p": 112,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 112
+        },
+        {
+          "n": 163,
+          "p": 113,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 113
+        },
+        {
+          "n": 163,
+          "p": 114,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 114
+        },
+        {
+          "n": 163,
+          "p": 115,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 115
+        },
+        {
+          "n": 163,
+          "p": 116,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 116
+        },
+        {
+          "n": 163,
+          "p": 117,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 117
+        },
+        {
+          "n": 163,
+          "p": 118,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 118
+        },
+        {
+          "n": 163,
+          "p": 119,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 119
+        },
+        {
+          "n": 163,
+          "p": 120,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 120
+        },
+        {
+          "n": 163,
+          "p": 121,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 121
+        },
+        {
+          "n": 163,
+          "p": 122,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 122
+        },
+        {
+          "n": 163,
+          "p": 123,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 123
+        },
+        {
+          "n": 163,
+          "p": 124,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 124
+        },
+        {
+          "n": 163,
+          "p": 125,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 125
+        },
+        {
+          "n": 163,
+          "p": 126,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 126
+        },
+        {
+          "n": 163,
+          "p": 127,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 127
+        },
+        {
+          "n": 163,
+          "p": 128,
+          "predicted_toffoli_depth": 248,
+          "s": 4,
+          "w": 128
+        },
+        {
+          "n": 163,
+          "p": 110,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 110
+        },
+        {
+          "n": 163,
+          "p": 111,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 111
+        },
+        {
+          "n": 163,
+          "p": 112,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 112
+        },
+        {
+          "n": 163,
+          "p": 113,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 113
+        },
+        {
+          "n": 163,
+          "p": 114,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 114
+        },
+        {
+          "n": 163,
+          "p": 115,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 115
+        },
+        {
+          "n": 163,
+          "p": 116,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 116
+        },
+        {
+          "n": 163,
+          "p": 117,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 117
+        },
+        {
+          "n": 163,
+          "p": 118,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 118
+        },
+        {
+          "n": 163,
+          "p": 119,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 119
+        },
+        {
+          "n": 163,
+          "p": 120,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 120
+        },
+        {
+          "n": 163,
+          "p": 121,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 121
+        },
+        {
+          "n": 163,
+          "p": 122,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 122
+        },
+        {
+          "n": 163,
+          "p": 123,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 123
+        },
+        {
+          "n": 163,
+          "p": 124,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 124
+        },
+        {
+          "n": 163,
+          "p": 125,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 125
+        },
+        {
+          "n": 163,
+          "p": 126,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 126
+        },
+        {
+          "n": 163,
+          "p": 127,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 127
+        },
+        {
+          "n": 163,
+          "p": 128,
+          "predicted_toffoli_depth": 248,
+          "s": 5,
+          "w": 128
+        },
+        {
+          "n": 163,
+          "p": 110,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 110
+        },
+        {
+          "n": 163,
+          "p": 111,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 111
+        },
+        {
+          "n": 163,
+          "p": 112,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 112
+        },
+        {
+          "n": 163,
+          "p": 113,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 113
+        },
+        {
+          "n": 163,
+          "p": 114,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 114
+        },
+        {
+          "n": 163,
+          "p": 115,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 115
+        },
+        {
+          "n": 163,
+          "p": 116,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 116
+        },
+        {
+          "n": 163,
+          "p": 117,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 117
+        },
+        {
+          "n": 163,
+          "p": 118,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 118
+        },
+        {
+          "n": 163,
+          "p": 119,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 119
+        },
+        {
+          "n": 163,
+          "p": 120,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 120
+        },
+        {
+          "n": 163,
+          "p": 121,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 121
+        },
+        {
+          "n": 163,
+          "p": 122,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 122
+        },
+        {
+          "n": 163,
+          "p": 123,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 123
+        },
+        {
+          "n": 163,
+          "p": 124,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 124
+        },
+        {
+          "n": 163,
+          "p": 125,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 125
+        },
+        {
+          "n": 163,
+          "p": 126,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 126
+        },
+        {
+          "n": 163,
+          "p": 127,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 127
+        },
+        {
+          "n": 163,
+          "p": 128,
+          "predicted_toffoli_depth": 248,
+          "s": 6,
+          "w": 128
+        },
+        {
+          "n": 163,
+          "p": 110,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 110
+        },
+        {
+          "n": 163,
+          "p": 111,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 111
+        },
+        {
+          "n": 163,
+          "p": 112,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 112
+        },
+        {
+          "n": 163,
+          "p": 113,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 113
+        },
+        {
+          "n": 163,
+          "p": 114,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 114
+        },
+        {
+          "n": 163,
+          "p": 115,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 115
+        },
+        {
+          "n": 163,
+          "p": 116,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 116
+        },
+        {
+          "n": 163,
+          "p": 117,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 117
+        },
+        {
+          "n": 163,
+          "p": 118,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 118
+        },
+        {
+          "n": 163,
+          "p": 119,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 119
+        },
+        {
+          "n": 163,
+          "p": 120,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 120
+        },
+        {
+          "n": 163,
+          "p": 121,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 121
+        },
+        {
+          "n": 163,
+          "p": 122,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 122
+        },
+        {
+          "n": 163,
+          "p": 123,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 123
+        },
+        {
+          "n": 163,
+          "p": 124,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 124
+        },
+        {
+          "n": 163,
+          "p": 125,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 125
+        },
+        {
+          "n": 163,
+          "p": 126,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 126
+        },
+        {
+          "n": 163,
+          "p": 127,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 127
+        },
+        {
+          "n": 163,
+          "p": 128,
+          "predicted_toffoli_depth": 248,
+          "s": 7,
+          "w": 128
+        },
+        {
+          "n": 163,
+          "p": 110,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 110
+        },
+        {
+          "n": 163,
+          "p": 111,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 111
+        },
+        {
+          "n": 163,
+          "p": 112,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 112
+        },
+        {
+          "n": 163,
+          "p": 113,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 113
+        },
+        {
+          "n": 163,
+          "p": 114,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 114
+        },
+        {
+          "n": 163,
+          "p": 115,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 115
+        },
+        {
+          "n": 163,
+          "p": 116,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 116
+        },
+        {
+          "n": 163,
+          "p": 117,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 117
+        },
+        {
+          "n": 163,
+          "p": 118,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 118
+        },
+        {
+          "n": 163,
+          "p": 119,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 119
+        },
+        {
+          "n": 163,
+          "p": 120,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 120
+        },
+        {
+          "n": 163,
+          "p": 121,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 121
+        },
+        {
+          "n": 163,
+          "p": 122,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 122
+        },
+        {
+          "n": 163,
+          "p": 123,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 123
+        },
+        {
+          "n": 163,
+          "p": 124,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 124
+        },
+        {
+          "n": 163,
+          "p": 125,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 125
+        },
+        {
+          "n": 163,
+          "p": 126,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 126
+        },
+        {
+          "n": 163,
+          "p": 127,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 127
+        },
+        {
+          "n": 163,
+          "p": 128,
+          "predicted_toffoli_depth": 248,
+          "s": 8,
+          "w": 128
+        },
+        {
+          "n": 163,
+          "p": 110,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 110
+        },
+        {
+          "n": 163,
+          "p": 111,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 111
+        },
+        {
+          "n": 163,
+          "p": 112,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 112
+        },
+        {
+          "n": 163,
+          "p": 113,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 113
+        },
+        {
+          "n": 163,
+          "p": 114,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 114
+        },
+        {
+          "n": 163,
+          "p": 115,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 115
+        },
+        {
+          "n": 163,
+          "p": 116,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 116
+        },
+        {
+          "n": 163,
+          "p": 117,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 117
+        },
+        {
+          "n": 163,
+          "p": 118,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 118
+        },
+        {
+          "n": 163,
+          "p": 119,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 119
+        },
+        {
+          "n": 163,
+          "p": 120,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 120
+        },
+        {
+          "n": 163,
+          "p": 121,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 121
+        },
+        {
+          "n": 163,
+          "p": 122,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 122
+        },
+        {
+          "n": 163,
+          "p": 123,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 123
+        },
+        {
+          "n": 163,
+          "p": 124,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 124
+        },
+        {
+          "n": 163,
+          "p": 125,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 125
+        },
+        {
+          "n": 163,
+          "p": 126,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 126
+        },
+        {
+          "n": 163,
+          "p": 127,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 127
+        },
+        {
+          "n": 163,
+          "p": 128,
+          "predicted_toffoli_depth": 248,
+          "s": 9,
+          "w": 128
+        },
+        {
+          "n": 163,
+          "p": 110,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 110
+        },
+        {
+          "n": 163,
+          "p": 111,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 111
+        },
+        {
+          "n": 163,
+          "p": 112,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 112
+        },
+        {
+          "n": 163,
+          "p": 113,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 113
+        },
+        {
+          "n": 163,
+          "p": 114,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 114
+        },
+        {
+          "n": 163,
+          "p": 115,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 115
+        },
+        {
+          "n": 163,
+          "p": 116,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 116
+        },
+        {
+          "n": 163,
+          "p": 117,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 117
+        },
+        {
+          "n": 163,
+          "p": 118,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 118
+        },
+        {
+          "n": 163,
+          "p": 119,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 119
+        },
+        {
+          "n": 163,
+          "p": 120,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 120
+        },
+        {
+          "n": 163,
+          "p": 121,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 121
+        },
+        {
+          "n": 163,
+          "p": 122,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 122
+        },
+        {
+          "n": 163,
+          "p": 123,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 123
+        },
+        {
+          "n": 163,
+          "p": 124,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 124
+        },
+        {
+          "n": 163,
+          "p": 125,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 125
+        },
+        {
+          "n": 163,
+          "p": 126,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 126
+        },
+        {
+          "n": 163,
+          "p": 127,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 127
+        },
+        {
+          "n": 163,
+          "p": 128,
+          "predicted_toffoli_depth": 248,
+          "s": 10,
+          "w": 128
+        },
+        {
+          "n": 163,
+          "p": 110,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 110
+        },
+        {
+          "n": 163,
+          "p": 111,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 111
+        },
+        {
+          "n": 163,
+          "p": 112,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 112
+        },
+        {
+          "n": 163,
+          "p": 113,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 113
+        },
+        {
+          "n": 163,
+          "p": 114,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 114
+        },
+        {
+          "n": 163,
+          "p": 115,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 115
+        },
+        {
+          "n": 163,
+          "p": 116,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 116
+        },
+        {
+          "n": 163,
+          "p": 117,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 117
+        },
+        {
+          "n": 163,
+          "p": 118,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 118
+        },
+        {
+          "n": 163,
+          "p": 119,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 119
+        },
+        {
+          "n": 163,
+          "p": 120,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 120
+        },
+        {
+          "n": 163,
+          "p": 121,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 121
+        },
+        {
+          "n": 163,
+          "p": 122,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 122
+        },
+        {
+          "n": 163,
+          "p": 123,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 123
+        },
+        {
+          "n": 163,
+          "p": 124,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 124
+        },
+        {
+          "n": 163,
+          "p": 125,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 125
+        },
+        {
+          "n": 163,
+          "p": 126,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 126
+        },
+        {
+          "n": 163,
+          "p": 127,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 127
+        },
+        {
+          "n": 163,
+          "p": 128,
+          "predicted_toffoli_depth": 248,
+          "s": 11,
+          "w": 128
+        },
+        {
+          "n": 163,
+          "p": 110,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 110
+        },
+        {
+          "n": 163,
+          "p": 111,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 111
+        },
+        {
+          "n": 163,
+          "p": 112,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 112
+        },
+        {
+          "n": 163,
+          "p": 113,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 113
+        },
+        {
+          "n": 163,
+          "p": 114,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 114
+        },
+        {
+          "n": 163,
+          "p": 115,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 115
+        },
+        {
+          "n": 163,
+          "p": 116,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 116
+        },
+        {
+          "n": 163,
+          "p": 117,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 117
+        },
+        {
+          "n": 163,
+          "p": 118,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 118
+        },
+        {
+          "n": 163,
+          "p": 119,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 119
+        },
+        {
+          "n": 163,
+          "p": 120,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 120
+        },
+        {
+          "n": 163,
+          "p": 121,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 121
+        },
+        {
+          "n": 163,
+          "p": 122,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 122
+        },
+        {
+          "n": 163,
+          "p": 123,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 123
+        },
+        {
+          "n": 163,
+          "p": 124,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 124
+        },
+        {
+          "n": 163,
+          "p": 125,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 125
+        },
+        {
+          "n": 163,
+          "p": 126,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 126
+        },
+        {
+          "n": 163,
+          "p": 127,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 127
+        },
+        {
+          "n": 163,
+          "p": 128,
+          "predicted_toffoli_depth": 248,
+          "s": 12,
+          "w": 128
+        },
+        {
+          "n": 163,
+          "p": 110,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 110
+        },
+        {
+          "n": 163,
+          "p": 111,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 111
+        },
+        {
+          "n": 163,
+          "p": 112,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 112
+        },
+        {
+          "n": 163,
+          "p": 113,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 113
+        },
+        {
+          "n": 163,
+          "p": 114,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 114
+        },
+        {
+          "n": 163,
+          "p": 115,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 115
+        },
+        {
+          "n": 163,
+          "p": 116,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 116
+        },
+        {
+          "n": 163,
+          "p": 117,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 117
+        },
+        {
+          "n": 163,
+          "p": 118,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 118
+        },
+        {
+          "n": 163,
+          "p": 119,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 119
+        },
+        {
+          "n": 163,
+          "p": 120,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 120
+        },
+        {
+          "n": 163,
+          "p": 121,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 121
+        },
+        {
+          "n": 163,
+          "p": 122,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 122
+        },
+        {
+          "n": 163,
+          "p": 123,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 123
+        },
+        {
+          "n": 163,
+          "p": 124,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 124
+        },
+        {
+          "n": 163,
+          "p": 125,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 125
+        },
+        {
+          "n": 163,
+          "p": 126,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 126
+        },
+        {
+          "n": 163,
+          "p": 127,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 127
+        },
+        {
+          "n": 163,
+          "p": 128,
+          "predicted_toffoli_depth": 248,
+          "s": 13,
+          "w": 128
+        },
+        {
+          "n": 163,
+          "p": 110,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 110
+        },
+        {
+          "n": 163,
+          "p": 111,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 111
+        },
+        {
+          "n": 163,
+          "p": 112,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 112
+        },
+        {
+          "n": 163,
+          "p": 113,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 113
+        },
+        {
+          "n": 163,
+          "p": 114,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 114
+        },
+        {
+          "n": 163,
+          "p": 115,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 115
+        },
+        {
+          "n": 163,
+          "p": 116,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 116
+        },
+        {
+          "n": 163,
+          "p": 117,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 117
+        },
+        {
+          "n": 163,
+          "p": 118,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 118
+        },
+        {
+          "n": 163,
+          "p": 119,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 119
+        },
+        {
+          "n": 163,
+          "p": 120,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 120
+        },
+        {
+          "n": 163,
+          "p": 121,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 121
+        },
+        {
+          "n": 163,
+          "p": 122,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 122
+        },
+        {
+          "n": 163,
+          "p": 123,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 123
+        },
+        {
+          "n": 163,
+          "p": 124,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 124
+        },
+        {
+          "n": 163,
+          "p": 125,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 125
+        },
+        {
+          "n": 163,
+          "p": 126,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 126
+        },
+        {
+          "n": 163,
+          "p": 127,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 127
+        },
+        {
+          "n": 163,
+          "p": 128,
+          "predicted_toffoli_depth": 248,
+          "s": 14,
+          "w": 128
+        },
+        {
+          "n": 163,
+          "p": 110,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 110
+        },
+        {
+          "n": 163,
+          "p": 111,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 111
+        },
+        {
+          "n": 163,
+          "p": 112,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 112
+        },
+        {
+          "n": 163,
+          "p": 113,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 113
+        },
+        {
+          "n": 163,
+          "p": 114,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 114
+        },
+        {
+          "n": 163,
+          "p": 115,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 115
+        },
+        {
+          "n": 163,
+          "p": 116,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 116
+        },
+        {
+          "n": 163,
+          "p": 117,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 117
+        },
+        {
+          "n": 163,
+          "p": 118,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 118
+        },
+        {
+          "n": 163,
+          "p": 119,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 119
+        },
+        {
+          "n": 163,
+          "p": 120,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 120
+        },
+        {
+          "n": 163,
+          "p": 121,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 121
+        },
+        {
+          "n": 163,
+          "p": 122,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 122
+        },
+        {
+          "n": 163,
+          "p": 123,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 123
+        },
+        {
+          "n": 163,
+          "p": 124,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 124
+        },
+        {
+          "n": 163,
+          "p": 125,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 125
+        },
+        {
+          "n": 163,
+          "p": 126,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 126
+        },
+        {
+          "n": 163,
+          "p": 127,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 127
+        },
+        {
+          "n": 163,
+          "p": 128,
+          "predicted_toffoli_depth": 248,
+          "s": 15,
+          "w": 128
+        },
+        {
+          "n": 163,
+          "p": 110,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 110
+        },
+        {
+          "n": 163,
+          "p": 111,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 111
+        },
+        {
+          "n": 163,
+          "p": 112,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 112
+        },
+        {
+          "n": 163,
+          "p": 113,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 113
+        },
+        {
+          "n": 163,
+          "p": 114,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 114
+        },
+        {
+          "n": 163,
+          "p": 115,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 115
+        },
+        {
+          "n": 163,
+          "p": 116,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 116
+        },
+        {
+          "n": 163,
+          "p": 117,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 117
+        },
+        {
+          "n": 163,
+          "p": 118,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 118
+        },
+        {
+          "n": 163,
+          "p": 119,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 119
+        },
+        {
+          "n": 163,
+          "p": 120,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 120
+        },
+        {
+          "n": 163,
+          "p": 121,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 121
+        },
+        {
+          "n": 163,
+          "p": 122,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 122
+        },
+        {
+          "n": 163,
+          "p": 123,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 123
+        },
+        {
+          "n": 163,
+          "p": 124,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 124
+        },
+        {
+          "n": 163,
+          "p": 125,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 125
+        },
+        {
+          "n": 163,
+          "p": 126,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 126
+        },
+        {
+          "n": 163,
+          "p": 127,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 127
+        },
+        {
+          "n": 163,
+          "p": 128,
+          "predicted_toffoli_depth": 248,
+          "s": 16,
+          "w": 128
+        },
+        {
+          "n": 163,
+          "p": 110,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 110
+        },
+        {
+          "n": 163,
+          "p": 111,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 111
+        },
+        {
+          "n": 163,
+          "p": 112,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 112
+        },
+        {
+          "n": 163,
+          "p": 113,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 113
+        },
+        {
+          "n": 163,
+          "p": 114,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 114
+        },
+        {
+          "n": 163,
+          "p": 115,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 115
+        },
+        {
+          "n": 163,
+          "p": 116,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 116
+        },
+        {
+          "n": 163,
+          "p": 117,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 117
+        },
+        {
+          "n": 163,
+          "p": 118,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 118
+        },
+        {
+          "n": 163,
+          "p": 119,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 119
+        },
+        {
+          "n": 163,
+          "p": 120,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 120
+        },
+        {
+          "n": 163,
+          "p": 121,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 121
+        },
+        {
+          "n": 163,
+          "p": 122,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 122
+        },
+        {
+          "n": 163,
+          "p": 123,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 123
+        },
+        {
+          "n": 163,
+          "p": 124,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 124
+        },
+        {
+          "n": 163,
+          "p": 125,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 125
+        },
+        {
+          "n": 163,
+          "p": 126,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 126
+        },
+        {
+          "n": 163,
+          "p": 127,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 127
+        },
+        {
+          "n": 163,
+          "p": 128,
+          "predicted_toffoli_depth": 248,
+          "s": 17,
+          "w": 128
+        },
+        {
+          "n": 163,
+          "p": 110,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 110
+        },
+        {
+          "n": 163,
+          "p": 111,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 111
+        },
+        {
+          "n": 163,
+          "p": 112,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 112
+        },
+        {
+          "n": 163,
+          "p": 113,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 113
+        },
+        {
+          "n": 163,
+          "p": 114,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 114
+        },
+        {
+          "n": 163,
+          "p": 115,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 115
+        },
+        {
+          "n": 163,
+          "p": 116,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 116
+        },
+        {
+          "n": 163,
+          "p": 117,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 117
+        },
+        {
+          "n": 163,
+          "p": 118,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 118
+        },
+        {
+          "n": 163,
+          "p": 119,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 119
+        },
+        {
+          "n": 163,
+          "p": 120,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 120
+        },
+        {
+          "n": 163,
+          "p": 121,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 121
+        },
+        {
+          "n": 163,
+          "p": 122,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 122
+        },
+        {
+          "n": 163,
+          "p": 123,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 123
+        },
+        {
+          "n": 163,
+          "p": 124,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 124
+        },
+        {
+          "n": 163,
+          "p": 125,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 125
+        },
+        {
+          "n": 163,
+          "p": 126,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 126
+        },
+        {
+          "n": 163,
+          "p": 127,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 127
+        },
+        {
+          "n": 163,
+          "p": 128,
+          "predicted_toffoli_depth": 248,
+          "s": 18,
+          "w": 128
+        }
+      ],
+      "formula_minimizers_all_available": true,
+      "grid_points": 5576,
+      "minimum_toffoli_depth_over_available": {
+        "accumulation_layers": 0,
+        "addends": 110,
+        "available": true,
+        "cnot": 201599530,
+        "depth_model": "module_barriers",
+        "dw": 100636204788,
+        "forward_retained_qubits": 608434,
+        "missing_layers": "",
+        "n": 163,
+        "nct_depth_barrier": 164598,
+        "original_addends": 328,
+        "p": 110,
+        "predicted_toffoli_depth": 248,
+        "qrom_model": "h_u=2n",
+        "s": 3,
+        "tdw": 151628688,
+        "toffoli": 1066252,
+        "toffoli_depth": 248,
+        "tree_layers": 7,
+        "w": 110,
+        "width": 611406,
+        "width_model": "retain_all_square_workspace",
+        "windowing_model": "lane_first"
+      }
+    }
+  },
+  "fingerprint": "4b77c05b1135ff88925ee931a1cddc32a17acf3cb0b9e32229e8443091f1c251",
+  "layer_fingerprint": "79ad7909db7c967357e1bb8069fb96198863f891cf2256daddbf332d9229c0c9",
+  "model_version": "window-retained-lane-first-v2",
+  "parameter_p": "manuscript w",
+  "qrom": "table-independent h_u=2n",
+  "scope": "module-composed estimates; not monolithic gate-stream synthesis",
+  "search_range": {
+    "p": "1..2n+2",
+    "s_max": 18,
+    "s_min": 2
+  },
+  "windowing_model": "lane_first"
+}

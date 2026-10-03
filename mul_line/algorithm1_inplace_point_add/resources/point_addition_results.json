@@ -1,0 +1,36 @@
+[
+  {
+    "n": 163,
+    "inversion_mode": "binary_ecc",
+    "qubits": 11362,
+    "raw_cnot": 8517318,
+    "raw_toffoli": 40190,
+    "cnot": 7375426,
+    "toffoli": 40190,
+    "full_depth": 32656,
+    "current_depth": 32656,
+    "toffoli_depth": 46,
+    "DW": 371037472,
+    "TDW": 522652,
+    "low_level_multiplications": 44,
+    "multiplication": "AC-based",
+    "inversion_schedule": "Binary_ECC sequential Itoh-Tsujii"
+  },
+  {
+    "n": 163,
+    "inversion_mode": "optimal_depth",
+    "qubits": 13174,
+    "raw_cnot": 8520802,
+    "raw_toffoli": 40190,
+    "cnot": 7065450,
+    "toffoli": 40190,
+    "full_depth": 29872,
+    "current_depth": 30052,
+    "toffoli_depth": 42,
+    "DW": 393533728,
+    "TDW": 553308,
+    "low_level_multiplications": 44,
+    "multiplication": "AC-based",
+    "inversion_schedule": "mul_line optimal Toffoli-depth parallel inversion"
+  }
+]

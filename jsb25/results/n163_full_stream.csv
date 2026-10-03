@@ -1,0 +1,3 @@
+n,mode,width,toffoli_count,cnot_count,full_depth,current_depth,toffoli_depth
+163,inplace,53134,193354,2417882,5888,5892,46
+163,outofplace,57521,48583,650277,1494,1494,12
