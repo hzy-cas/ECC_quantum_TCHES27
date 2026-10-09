@@ -13,8 +13,8 @@ SOURCES = $(SRCDIR)/main.cpp \
 
 all: $(TARGET)
 
-$(TARGET): $(SOURCES)
-	$(CXX) $(CXXFLAGS) -o $@ $^
+$(TARGET): $(SOURCES) $(wildcard ../../circuit_backend/cpp/*)
+	$(CXX) $(CXXFLAGS) -o $@ $(SOURCES)
 
 clean:
 	rm -f $(TARGET)

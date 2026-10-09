@@ -75,12 +75,12 @@ class ExportTests(unittest.TestCase):
                 *RESULT_HEADERS,
             ]
             rows = [
-                ["ac-balanced-clean-v1", 163, 328, 1, 327, 0, 10, 20, 100, 110, 8, 1000,
+                [MODEL_VERSION, 163, 328, 1, 327, 0, 10, 20, 100, 110, 8, 1000,
                  "100000", "110000", "8000", 16.6, 16.7, 12.9, 1.0],
-                ["ac-balanced-clean-v1", 163, 328, 2, 163, 1, 11, 21, 80, 90, 6, 1100,
+                [MODEL_VERSION, 163, 328, 2, 163, 1, 11, 21, 80, 90, 6, 1100,
                  "88000", "99000", "6600", 16.4, 16.6, 12.7, 2.0],
                 # Duplicate w=2; the final row must replace the old value.
-                ["ac-balanced-clean-v1", 163, 328, 2, 163, 1, 12, 22, 70, 85, 7, 1100,
+                [MODEL_VERSION, 163, 328, 2, 163, 1, 12, 22, 70, 85, 7, 1100,
                  "77000", "93500", "7700", 16.2, 16.5, 12.9, 3.0],
             ]
             with csv_path.open("w", newline="", encoding="utf-8") as handle:

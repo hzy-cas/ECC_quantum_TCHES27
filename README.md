@@ -1,6 +1,8 @@
 # Quantum Arithmetic over Binary Fields
 
-Code and data for the article *Depth-Optimized Quantum Arithmetic over Binary Fields with Applications to Binary ECDLP*. 
+Code and data for the manuscript *Quantum Arithmetic over Binary Fields with Its
+application*. The reference for this organization is Table 6 in the updated,
+24-page PDF supplied.
 
 ## Table 6 implementations
 
@@ -19,6 +21,13 @@ workspace. T-optimal arithmetic retains nonlinear intermediate results; linear
 cleanup remains. Both complete-stage estimators account for the outer
 compute-copy-uncompute composition. QFT, measurement, and classical post-processing
 are outside the reported resource scope.
+
+## Shared gate-stream backend
+
+The five main configurations and the JSB25 comparison circuits use the shared
+C++ or Python implementations in [circuit_backend](circuit_backend). Their
+original backend paths are compatibility entry points. See that directory for
+regression tests and the n=163 resource reevaluation.
 
 ## Arithmetic and synthesis support
 

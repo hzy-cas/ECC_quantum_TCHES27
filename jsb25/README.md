@@ -33,3 +33,10 @@ automatic depth estimation.
 For complete-Shor estimates, the number of controlled point additions is `2n+2`. FLT-out
 uses compute-copy-uncompute to clear retained garbage; the script applies this composition
 and the final output-copy CNOT layer automatically.
+
+## Shared resource backend
+
+Gate-stream construction and resource analysis are maintained in the repository
+root `circuit_backend/` directory. Local backend files are compatibility entry
+points. Keep the repository directory structure when copying these modules.
+See `circuit_backend/results/n163/` for the shared-backend reevaluation.

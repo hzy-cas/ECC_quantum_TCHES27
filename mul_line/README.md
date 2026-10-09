@@ -72,3 +72,10 @@ while width remains unchanged.
 Classical `mul_1.txt`/`mul_2.txt` expressions have representation-specific
 coordinates; they are not automatically interchangeable with polynomial-basis
 inputs. The quantum estimators consume their own matrix/gate-stream files.
+
+## Shared resource backend
+
+Gate-stream construction and resource analysis are maintained in the repository
+root `circuit_backend/` directory. Local backend files are compatibility entry
+points. Keep the repository directory structure when copying these modules.
+See `circuit_backend/results/n163/` for the shared-backend reevaluation.

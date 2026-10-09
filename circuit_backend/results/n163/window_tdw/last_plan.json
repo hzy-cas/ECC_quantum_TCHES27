@@ -1,0 +1,194 @@
+{
+  "candidates": [
+    {
+      "n": 163,
+      "p": 55,
+      "predicted_tdw": 120399200,
+      "predicted_toffoli_depth": 608,
+      "predicted_width": 198025,
+      "s": 6,
+      "w": 55
+    },
+    {
+      "n": 163,
+      "p": 55,
+      "predicted_tdw": 120399200,
+      "predicted_toffoli_depth": 608,
+      "predicted_width": 198025,
+      "s": 7,
+      "w": 55
+    },
+    {
+      "n": 163,
+      "p": 55,
+      "predicted_tdw": 120399200,
+      "predicted_toffoli_depth": 608,
+      "predicted_width": 198025,
+      "s": 8,
+      "w": 55
+    },
+    {
+      "n": 163,
+      "p": 55,
+      "predicted_tdw": 120399200,
+      "predicted_toffoli_depth": 608,
+      "predicted_width": 198025,
+      "s": 9,
+      "w": 55
+    },
+    {
+      "n": 163,
+      "p": 55,
+      "predicted_tdw": 120399200,
+      "predicted_toffoli_depth": 608,
+      "predicted_width": 198025,
+      "s": 10,
+      "w": 55
+    },
+    {
+      "n": 163,
+      "p": 55,
+      "predicted_tdw": 120399200,
+      "predicted_toffoli_depth": 608,
+      "predicted_width": 198025,
+      "s": 11,
+      "w": 55
+    },
+    {
+      "n": 163,
+      "p": 55,
+      "predicted_tdw": 120399200,
+      "predicted_toffoli_depth": 608,
+      "predicted_width": 198025,
+      "s": 12,
+      "w": 55
+    },
+    {
+      "n": 163,
+      "p": 55,
+      "predicted_tdw": 120399200,
+      "predicted_toffoli_depth": 608,
+      "predicted_width": 198025,
+      "s": 13,
+      "w": 55
+    },
+    {
+      "n": 163,
+      "p": 55,
+      "predicted_tdw": 120399200,
+      "predicted_toffoli_depth": 608,
+      "predicted_width": 198025,
+      "s": 14,
+      "w": 55
+    },
+    {
+      "n": 163,
+      "p": 55,
+      "predicted_tdw": 120399200,
+      "predicted_toffoli_depth": 608,
+      "predicted_width": 198025,
+      "s": 15,
+      "w": 55
+    },
+    {
+      "n": 163,
+      "p": 55,
+      "predicted_tdw": 120399200,
+      "predicted_toffoli_depth": 608,
+      "predicted_width": 198025,
+      "s": 16,
+      "w": 55
+    },
+    {
+      "n": 163,
+      "p": 55,
+      "predicted_tdw": 120399200,
+      "predicted_toffoli_depth": 608,
+      "predicted_width": 198025,
+      "s": 17,
+      "w": 55
+    },
+    {
+      "n": 163,
+      "p": 55,
+      "predicted_tdw": 120399200,
+      "predicted_toffoli_depth": 608,
+      "predicted_width": 198025,
+      "s": 18,
+      "w": 55
+    }
+  ],
+  "field_sizes": [
+    163
+  ],
+  "fingerprint": "3586fe0e7dea92a0c84ae60f6734f678499b658d7af62cc9a5b2ec517627f764",
+  "layer_fingerprint": "709fbe06ff23663667ed41dd4ac2afd534fbf6a05a191afc62278314e216c018",
+  "model_version": "window-balanced-lane-first-tdw-v1",
+  "objective": "tdw",
+  "pending": [
+    [
+      163,
+      "reduction",
+      1
+    ],
+    [
+      163,
+      "reduction",
+      2
+    ],
+    [
+      163,
+      "reduction",
+      3
+    ],
+    [
+      163,
+      "reduction",
+      7
+    ],
+    [
+      163,
+      "reduction",
+      14
+    ],
+    [
+      163,
+      "reduction",
+      27
+    ]
+  ],
+  "point_addition": "balanced",
+  "scope": "winners",
+  "tasks": [
+    [
+      163,
+      "reduction",
+      1
+    ],
+    [
+      163,
+      "reduction",
+      2
+    ],
+    [
+      163,
+      "reduction",
+      3
+    ],
+    [
+      163,
+      "reduction",
+      7
+    ],
+    [
+      163,
+      "reduction",
+      14
+    ],
+    [
+      163,
+      "reduction",
+      27
+    ]
+  ]
+}

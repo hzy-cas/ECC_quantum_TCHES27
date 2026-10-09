@@ -1,0 +1,26 @@
+============================================================
+         Shor Algorithm Resource Estimation Strategy
+                 (Strict Rules Applied)
+============================================================
+Level 0 (ops=164): Depth=18787, Qubits=1383278, Clear=554400
+Level 1 (ops=82): cDepth=17510, Demand=641301, Qubits=1470179, Clear=250713
+Level 2 (ops=41): cDepth=16104, Demand=323613, Qubits=1543079, Clear=125438
+Level 3 (ops=20): cDepth=14609, Demand=161018, Qubits=1578659, Clear=61396
+Level 4 (ops=10): cDepth=13203, Demand=83553, Qubits=1600816, Clear=30861
+Level 5 (ops=5): cDepth=11797, Demand=44739, Qubits=1614694, Clear=15512
+Level 6 (ops=3): cDepth=10411, Demand=29246, Qubits=1628428, Clear=9405
+Level 7 (ops=1): cDepth=7533, Demand=13753, Qubits=1632776, Clear=3298
+Level 8 (ops=1): cDepth=7533, Demand=13753, Qubits=1643231, Clear=3298
+
+========================================
+       Final Results (N=163)
+========================================
+Metric               |           Value
+----------------------------------------
+Toffoli Gates        |         3167396
+CNOT Gates           |       571478060
+Full Depth           |          233752
+Current Depth        |          235288
+Toffoli Depth        |             322
+Qubits               |         1643885
+----------------------------------------

@@ -44,6 +44,16 @@ def run_json(*arguments: str) -> dict[str, int]:
 
 
 class PrimitiveRegressionTests(unittest.TestCase):
+    def test_old_layer_cache_is_rejected(self):
+        result = subprocess.run(
+            [str(BINARY), "estimate", "--n", "163", "--w", "1",
+             "--data-root", str(DATA), "--layer-cache",
+             str(ROOT / "results" / "layers_n163.csv")],
+            capture_output=True, text=True,
+        )
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("incompatible layer cache", result.stderr)
+
     def test_ac_multiplication_matches_table3_gate_stream(self):
         expected = {
             163: (2718, 906, 180537, 711),

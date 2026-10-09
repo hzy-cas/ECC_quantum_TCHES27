@@ -1,0 +1,100 @@
+{
+  "backend": "nct-v2",
+  "scope": "controlled point-addition stage including the configured outer cleanup",
+  "ac_balanced_scan_range": [
+    1,
+    128
+  ],
+  "ac_balanced_best_w": 56,
+  "window_selected": {
+    "s": 6,
+    "w": 55
+  },
+  "resources": [
+    {
+      "configuration": "In-place+AC",
+      "n": 163,
+      "toffoli": 13182320,
+      "cnot": 2317467600,
+      "width": 13174,
+      "toffoli_depth": 13776,
+      "nct_depth": 9798016,
+      "dw": 129079062784,
+      "tdw": 181485024
+    },
+    {
+      "configuration": "Balanced+AC",
+      "n": 163,
+      "toffoli": 6341768,
+      "cnot": 857859900,
+      "width": 512450,
+      "toffoli_depth": 810,
+      "nct_depth": 577596,
+      "dw": 295989070200,
+      "tdw": 415084500
+    },
+    {
+      "configuration": "Balanced+Karatsuba",
+      "n": 163,
+      "toffoli": 30464596,
+      "cnot": 265802254,
+      "width": 873913,
+      "toffoli_depth": 1104,
+      "nct_depth": 73788,
+      "dw": 64484292444,
+      "tdw": 964799952
+    },
+    {
+      "configuration": "T-optimal+AC",
+      "n": 163,
+      "toffoli": 3167396,
+      "cnot": 571478060,
+      "width": 1643885,
+      "toffoli_depth": 322,
+      "nct_depth": 233752,
+      "dw": 384261406520,
+      "tdw": 529330970
+    },
+    {
+      "configuration": "Window+AC",
+      "n": 163,
+      "toffoli": 1122328,
+      "cnot": 167316138,
+      "width": 198025,
+      "toffoli_depth": 608,
+      "nct_depth": 264098,
+      "dw": 52298006450,
+      "tdw": 120399200
+    },
+    {
+      "configuration": "JSB25 in-place",
+      "n": 163,
+      "toffoli": 63420112,
+      "cnot": 793065296,
+      "width": 53134,
+      "toffoli_depth": 15088,
+      "nct_depth": 1931264,
+      "dw": 102615781376,
+      "tdw": 801685792
+    },
+    {
+      "configuration": "JSB25 out-of-place",
+      "n": 163,
+      "toffoli": 31870448,
+      "cnot": 426582038,
+      "width": 15847322,
+      "toffoli_depth": 7872,
+      "nct_depth": 980065,
+      "dw": 15531405635930,
+      "tdw": 124750118784
+    }
+  ],
+  "backend_sha256": {
+    "circuit_backend/cpp/GateManager.cpp": "b82ea9e71f81d6324ac222c614ddb1b3620f8e9d19a13e2e25002c168ef692de",
+    "circuit_backend/cpp/GateManager.h": "dfdd0cc5bd3df3e329223130564a7b923839886eac81af3662113d9d6864e089",
+    "circuit_backend/python/__init__.py": "adac794946e2c9b6dec7ea7c8fee7644c82b519dc7cd29bb860414319114b869",
+    "circuit_backend/python/matrix_cache.py": "9db17b13b57342e39c84fcc20659d5e8bfadfaf94d8ea8e1b02bd84720f2a7d4",
+    "circuit_backend/python/qasm.py": "03e42a22c813cfb086d216cbda305fde2c81ac8dfb1f1275c4865777efb7eec6",
+    "circuit_backend/python/stats_utils.py": "144fe4868cef818d254d2049960f10c4ff005cf4e78a8d2ad1720a900bc5ffbf"
+  }
+}

@@ -453,7 +453,7 @@ def verify_one(n, inversion_mode=BINARY_ECC, algebra_only=False):
     circuit = build_test_circuit(n, inversion_mode)
     result["build_seconds"] = time.perf_counter() - start
     result["width"] = circuit["width"]
-    raw_toffoli, raw_cnot = circuit["gm"].get_stats()
+    raw_toffoli, raw_cnot, raw_x = circuit["gm"].get_stats()
     result["raw_toffoli"] = raw_toffoli
     result["raw_cnot"] = raw_cnot
 

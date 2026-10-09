@@ -1,0 +1,38 @@
+[
+  {
+    "field_degree": 163,
+    "mode": "inplace",
+    "point_additions": 328,
+    "resource_multiplier": 328,
+    "result_copy_cnot": 0,
+    "toffoli_count": 63420112,
+    "cnot_count": 793065296,
+    "full_depth": 1931264,
+    "current_depth": 1932576,
+    "toffoli_depth": 15088,
+    "qubits": 53134,
+    "dw_cost": 102615781376,
+    "dw_power": 36,
+    "dw_coefficient": 1.493256151676178,
+    "cleanup": "none",
+    "width_model": "table6"
+  },
+  {
+    "field_degree": 163,
+    "mode": "outofplace",
+    "point_additions": 328,
+    "resource_multiplier": 656,
+    "result_copy_cnot": 326,
+    "toffoli_count": 31870448,
+    "cnot_count": 426582038,
+    "full_depth": 980065,
+    "current_depth": 980065,
+    "toffoli_depth": 7872,
+    "qubits": 15847322,
+    "dw_cost": 15531405635930,
+    "dw_power": 43,
+    "dw_coefficient": 1.7657163921205665,
+    "cleanup": "compute-copy-uncompute",
+    "width_model": "table6"
+  }
+]

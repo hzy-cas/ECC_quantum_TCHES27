@@ -226,6 +226,7 @@ def load_layer_cache(path: Path, n: int, maximum_w: int | None = None) -> dict[L
             f"n={n}: maximum_w must satisfy 1 <= maximum_w <= {configured_maximum}"
         )
     layers: dict[LayerKey, LayerStats] = {}
+    versions = set()
     with path.open(newline="", encoding="utf-8") as handle:
         reader = csv.DictReader(handle)
         columns = set(reader.fieldnames or [])
@@ -234,10 +235,13 @@ def load_layer_cache(path: Path, n: int, maximum_w: int | None = None) -> dict[L
             raise ValueError(f"{path}: missing columns: {', '.join(missing_columns)}")
 
         for row_number, raw in enumerate(reader, start=2):
-            if raw["model_version"] != MODEL_VERSION:
+            if raw["model_version"] not in (MODEL_VERSION, "ac-balanced-clean-nct-v2"):
                 raise ValueError(
                     f"{path}: row {row_number}: expected model_version={MODEL_VERSION!r}"
                 )
+            versions.add(raw["model_version"])
+            if len(versions) > 1:
+                raise ValueError(f"{path}: mixed backend versions in one cache")
             row_n = _parse_nonnegative_int(raw, "n", path, row_number)
             if row_n != n:
                 raise ValueError(f"{path}: row {row_number}: expected n={n}, found n={row_n}")

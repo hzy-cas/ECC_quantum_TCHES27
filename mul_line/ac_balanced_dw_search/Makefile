@@ -16,7 +16,7 @@ CORE_SOURCES := \
 	src/AlgorithmFlow/BalancedQuantumShor.cpp \
 	src/AlgorithmFlow/BalancedResource.cpp
 
-HEADERS := $(wildcard src/*/*.h)
+HEADERS := $(wildcard src/*/*.h) $(wildcard ../../circuit_backend/cpp/*)
 
 all: $(TARGET)
 

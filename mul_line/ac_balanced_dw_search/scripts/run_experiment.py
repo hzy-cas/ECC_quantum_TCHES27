@@ -20,7 +20,7 @@ from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 
 
-MODEL_VERSION = "ac-balanced-clean-v1"
+MODEL_VERSION = "ac-balanced-clean-nct-v2"
 SUPPORTED = {163: 128, 233: 128, 283: 128, 571: 256}
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 

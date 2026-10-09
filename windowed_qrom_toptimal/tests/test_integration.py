@@ -51,7 +51,7 @@ class IntegrationTests(unittest.TestCase):
             self.assertNotEqual(result.returncode,0)
             self.assertIn("output mismatch",result.stderr)
 
-    def test_legacy_layers_reused_but_network_summary_recomputed(self):
+    def test_legacy_layers_rejected_after_shared_backend_change(self):
         with tempfile.TemporaryDirectory() as directory:
             output=Path(directory)
             command=[sys.executable,str(run.ROOT/'run.py'),'run','--n','163','--scope','smoke',
@@ -65,14 +65,11 @@ class IntegrationTests(unittest.TestCase):
             snapshots={p.name:p.read_bytes() for p in files}
             (output/'summary.json').write_text(json.dumps({'model_version':model.LAYER_VERSION,
                 'fields':{'163':{'minimum_toffoli_depth_over_available':{'toffoli_depth':-1}}}}))
-            second=subprocess.run(command,capture_output=True,text=True,check=True)
-            self.assertIn('pending: 0',second.stdout)
+            second=subprocess.run(command,capture_output=True,text=True)
+            self.assertNotEqual(second.returncode,0)
+            self.assertIn('stale/foreign cache',second.stderr)
             self.assertEqual(snapshots,{p.name:p.read_bytes() for p in files})
-            summary=json.loads((output/'summary.json').read_text())
-            self.assertEqual(summary['model_version'],model.MODEL_VERSION)
-            self.assertEqual(summary['windowing_model'],'lane_first')
-            self.assertEqual(summary['fields']['163']['grid_points'],17*328)
-            self.assertGreater(summary['fields']['163']['minimum_toffoli_depth_over_available']['toffoli_depth'],0)
+
 
 
 if __name__=="__main__": unittest.main()

@@ -68,9 +68,10 @@ def layer_fingerprint():
     paths += sorted((ROOT / "backend").rglob("*.cpp"))
     paths += sorted((ROOT / "backend").rglob("*.h"))
     paths += sorted((ROOT / "support").glob("*.py"))
+    paths += sorted((ROOT.parent / "circuit_backend" / "cpp").glob("GateManager.*"))
     digest = hashlib.sha256()
     for path in paths:
-        digest.update(str(path.relative_to(ROOT)).encode())
+        digest.update(os.path.relpath(path, ROOT).encode())
         digest.update(sha256(path).encode())
     return digest.hexdigest()
 

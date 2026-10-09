@@ -1,8 +1,8 @@
 # Window-QROM resource estimation
 
-This self-contained package supports GF(2^163), GF(2^233), GF(2^283), and GF(2^571).
-It includes its C++17 backend, 84 arithmetic data files, basis transforms, and
-Python tests. Runtime dependencies are Python 3.10+, CMake 3.16+, and a C++17
+This package supports GF(2^163), GF(2^233), GF(2^283), and GF(2^571).
+It includes its arithmetic C++17 code, 84 data files, basis transforms, and
+Python tests. Gate storage and resource analysis use `../circuit_backend/cpp`. Runtime dependencies are Python 3.10+, CMake 3.16+, and a C++17
 compiler on Linux or macOS. No external repository, SageMath, OpenSSL, network
 access, or third-party Python package is needed.
 
@@ -41,7 +41,8 @@ for infinity or equal-point cases. See [METHOD.md](METHOD.md) for exact lifetime
 
 ## Build and verify data
 
-Copy this entire directory to another machine, excluding `build/`, and rebuild:
+Copy the repository, or this directory together with the sibling
+`circuit_backend/` directory, excluding `build/`, and rebuild:
 
 ```bash
 cd windowed_qrom_toptimal
@@ -142,3 +143,7 @@ output directory.
 `backend/` contains the C++ implementations; `model.py` composes schedules and
 resources; `run.py` manages builds and jobs; `support/` provides local field,
 basis, QROM, and fixture utilities. `data_manifest.json` checks all 84 data files.
+
+The shared C++ backend is included in the arithmetic-layer fingerprint. Use a
+new output directory when changing backend versions. The n=163 shared-backend
+reevaluation is stored in `../circuit_backend/results/n163/`.

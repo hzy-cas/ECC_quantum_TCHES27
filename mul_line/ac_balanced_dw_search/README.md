@@ -63,3 +63,10 @@ python3 scripts/export_full_shor.py
 The included `n=571` cache currently covers `w<=128`; use
 `python3 scripts/export_full_shor.py --max-w-571 128` until layers for `w=129,...,256`
 have been generated. The combined workbook is `results/ac_balanced_full_shor.xlsx`.
+
+## Shared resource backend
+
+Gate-stream construction and resource analysis are maintained in the repository
+root `circuit_backend/` directory. Local backend files are compatibility entry
+points. Keep the repository directory structure when copying these modules.
+See `circuit_backend/results/n163/` for the shared-backend reevaluation.

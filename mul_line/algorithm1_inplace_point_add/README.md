@@ -37,3 +37,10 @@ python3 tests/test_point_addition.py
 # Single-point-addition resources for the paper configuration
 python3 resources/point_addition_resources.py --sizes 163 --inversion optimal_depth
 ```
+
+## Shared resource backend
+
+Gate-stream construction and resource analysis are maintained in the repository
+root `circuit_backend/` directory. Local backend files are compatibility entry
+points. Keep the repository directory structure when copying these modules.
+See `circuit_backend/results/n163/` for the shared-backend reevaluation.

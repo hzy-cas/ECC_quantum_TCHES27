@@ -38,3 +38,10 @@ The saved paper candidate widths are:
 - `square/`: optimized squaring data and construction support.
 - `shor-circuit/`: Python point-addition reference and verification programs.
 - `C++/square_*/`: squaring streams used by the C++ Balanced circuit.
+
+## Shared resource backend
+
+Gate-stream construction and resource analysis are maintained in the repository
+root `circuit_backend/` directory. Local backend files are compatibility entry
+points. Keep the repository directory structure when copying these modules.
+See `circuit_backend/results/n163/` for the shared-backend reevaluation.

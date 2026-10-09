@@ -60,7 +60,7 @@ def estimate_one(n, inversion_mode=BINARY_ECC):
     start = time.perf_counter()
     circuit = build_test_circuit(n, inversion_mode)
     build_seconds = time.perf_counter() - start
-    raw_toffoli, raw_cnot = circuit["gm"].get_stats()
+    raw_toffoli, raw_cnot, raw_x = circuit["gm"].get_stats()
     expected_toffoli = raw_toffoli_closed_form(n)
     if raw_toffoli != expected_toffoli:
         raise AssertionError(
@@ -88,7 +88,7 @@ def estimate_one(n, inversion_mode=BINARY_ECC):
         "low_level_multiplications": low_level_multiplication_calls(n),
         "build_seconds": round(build_seconds, 6),
         "estimation_seconds": round(estimation_seconds, 6),
-        "estimator": "local resources/stats_utils.py",
+        "estimator": "circuit_backend/python (nct-v2)",
         "multiplication": "AC-based",
         "inversion_schedule": (
             "Binary_ECC sequential Itoh-Tsujii"

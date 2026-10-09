@@ -1,0 +1,22 @@
+[
+  {
+    "n": 163,
+    "inversion_mode": "optimal_depth",
+    "qubits": 13174,
+    "raw_cnot": 8520802,
+    "raw_toffoli": 40190,
+    "cnot": 7065450,
+    "toffoli": 40190,
+    "full_depth": 29872,
+    "current_depth": 30052,
+    "toffoli_depth": 42,
+    "DW": 393533728,
+    "TDW": 553308,
+    "low_level_multiplications": 44,
+    "build_seconds": 4.248017,
+    "estimation_seconds": 9.403719,
+    "estimator": "circuit_backend/python (nct-v2)",
+    "multiplication": "AC-based",
+    "inversion_schedule": "parallel AC Toffoli-depth-optimized inversion"
+  }
+]

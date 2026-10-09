@@ -13,11 +13,18 @@ import run
 class RunnerTests(unittest.TestCase):
     def test_legacy_layers_only_reused_for_exact_unchanged_arithmetic(self):
         legacy,current=next(iter(run.LEGACY_LAYER_IDENTITIES.items()))
-        self.assertEqual(run.layer_fingerprint(),current)
+        self.assertNotEqual(run.layer_fingerprint(),current)
+        self.assertFalse(run.compatible_layer_identity(legacy,run.layer_fingerprint()))
         self.assertTrue(run.compatible_layer_identity(legacy,current))
         self.assertTrue(run.compatible_layer_identity(current,current))
         self.assertFalse(run.compatible_layer_identity('foreign',current))
         self.assertFalse(run.compatible_layer_identity(legacy,'changed-backend'))
+
+    def test_shared_backend_change_invalidates_layer_identity(self):
+        previous=run.layer_fingerprint()
+        original=run.sha256
+        with patch('run.sha256',side_effect=lambda p:'changed-backend' if p.parent.name=='cpp' else original(p)):
+            self.assertNotEqual(run.layer_fingerprint(),previous)
 
     def test_network_change_does_not_change_arithmetic_identity(self):
         previous_layer=run.layer_fingerprint()

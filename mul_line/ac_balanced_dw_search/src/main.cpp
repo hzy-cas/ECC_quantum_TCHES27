@@ -18,7 +18,7 @@ namespace fs = std::filesystem;
 
 namespace {
 
-constexpr const char* kModelVersion = "ac-balanced-clean-v1";
+constexpr const char* kModelVersion = "ac-balanced-clean-nct-v2";
 
 struct Options {
     std::string command = "help";
@@ -186,9 +186,10 @@ private:
         while (std::getline(input, line)) {
             if (line.empty()) continue;
             const auto f = split_csv(line);
-            if (f.size() < 12 || f[0] != kModelVersion || parse_int(f[1], "cache n") != config_.n) {
-                continue;
+            if (f.size() < 12 || f[0] != kModelVersion) {
+                throw std::runtime_error("incompatible layer cache; use a new path for the shared NCT backend");
             }
+            if (parse_int(f[1], "cache n") != config_.n) continue;
             LayerKey key{parse_mode(f[2]), parse_int(f[3], "cache lanes")};
             LayerStats stats;
             stats.qubits = std::stoull(f[4]);

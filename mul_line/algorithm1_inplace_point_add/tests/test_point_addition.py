@@ -77,7 +77,7 @@ class LocalComponentTests(unittest.TestCase):
         forward_end = gm.current_pointer()
         gm.add_Toffoli(0, 1, 2)
         gm.replay_reverse(0, forward_end)
-        self.assertEqual(gm.get_stats(), (1, 2))
+        self.assertEqual(gm.get_stats(), (1, 2, 0))
         self.assertEqual(MatrixCache().get_matrix_data("/missing", 1), ([], []))
 
     def test_arithmetic_functions_keep_mul_line_api(self):

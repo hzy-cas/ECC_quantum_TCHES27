@@ -1,0 +1,3 @@
+field_degree,mode,point_additions,resource_multiplier,result_copy_cnot,toffoli_count,cnot_count,full_depth,current_depth,toffoli_depth,qubits,dw_cost,dw_power,dw_coefficient,cleanup,width_model
+163,inplace,328,328,0,63420112,793065296,1931264,1932576,15088,53134,102615781376,36,1.493256151676178,none,table6
+163,outofplace,328,656,326,31870448,426582038,980065,980065,7872,15847322,15531405635930,43,1.7657163921205665,compute-copy-uncompute,table6

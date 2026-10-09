@@ -1,0 +1,25 @@
+{
+  "shared_backend_tests": 7,
+  "ac_inplace_tests": 10,
+  "jsb25_tests": 5,
+  "ac_balanced_tests": 19,
+  "window_tests": 32,
+  "cpp_ctest_cases": 2,
+  "cross_language_sequences": 303,
+  "cpp_chunk_capacities": [
+    4,
+    5,
+    10000000
+  ],
+  "python_chunk_capacity": 4,
+  "truth_tables": {
+    "circuits": 30,
+    "basis_inputs_per_circuit": 16
+  },
+  "address_and_undefined_behavior_sanitizers": "both cross-chunk Toffoli cancellation cases passed",
+  "ac_balanced_n163_layers_recomputed": 192,
+  "ac_balanced_n163_layer_metrics_changed": 0,
+  "ac_balanced_n163_widths_scanned": 128,
+  "window_n163_layers_basis_verified": 6,
+  "window_n163_formula_minimizers_covered": 13
+}
