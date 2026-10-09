@@ -1,8 +1,7 @@
 # Quantum Arithmetic over Binary Fields
 
 Code and data for the manuscript *Quantum Arithmetic over Binary Fields with Its
-application*. The reference for this organization is Table 6 in the updated,
-24-page PDF supplied.
+application*. 
 
 ## Table 6 implementations
 
